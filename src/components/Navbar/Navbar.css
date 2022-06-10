@@ -1,7 +1,15 @@
 .n-wrapper{
     height: 10vh;
     display: flex;
+    position: sticky;
     justify-content: space-between;
+    padding: 0.7rem 2rem;
+    overflow: hidden;
+    z-index: 1;
+    width: 95vw; 
+    opacity: 0.9;
+    position: fixed;
+    left: -1%;
 }
 
 .n-left{

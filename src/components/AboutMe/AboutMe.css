@@ -1,0 +1,21 @@
+.aboutMe{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 80vh;
+    margin-bottom:  8rem;
+    margin-top:  9rem;
+    border: 8px solid  black;
+
+
+}
+
+.am-central{
+    display: flex;
+    margin-bottom:  8rem;
+    margin-top:  9rem;
+    height:60vh;
+    border: 8px solid  black;
+
+}

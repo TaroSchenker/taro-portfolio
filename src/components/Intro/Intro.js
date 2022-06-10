@@ -3,7 +3,8 @@ import './Intro.css'
 import Github from '../../img/github1.png'
 import Linkedin from '../../img/linkedin.png'
 import Modern from '../../img/modernabstract.png'
-
+import jsicon from '../../img/js.png'
+import cssicon from '../../img/css.png'
 
 
 
@@ -32,20 +33,17 @@ export default function Intro() {
             <img className="left-img" src={Modern} alt=''></img>
             </div>
         </div>
-        <div className="i-right"> 
+        <div className="i-right" style={{marginLeft: '100px'}}> 
           <img className="right-img" src={Modern} alt=''></img>
           <img className="right-img" src={Modern} alt=''></img>
           <img className="right-img" src={Modern} alt=''></img> 
 
         <div className="i-right-text">
-          {/* <Accordion defaultActiveKey="0">
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>Welcome to my Portfolio</Accordion.Header>
-                <Accordion.Body>
-                  After ten years working within the music industry managing tours and artists across the globe,I have begun the journey into a new career of software development.
-                </Accordion.Body>
-              </Accordion.Item>
-          </Accordion> */}
+          <div>
+            
+          </div>
+        
+
         </div>
       </div>
 
