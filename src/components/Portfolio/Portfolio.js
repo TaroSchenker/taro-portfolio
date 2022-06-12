@@ -1,6 +1,6 @@
 import React from 'react'
-import './AboutMe.css'
-import {Typewriter ,Cursor} from 'react-simple-typewriter'
+import './Portfolio.css'
+
 
 export default function AboutMe() {
   

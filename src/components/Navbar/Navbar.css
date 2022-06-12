@@ -1,15 +1,28 @@
 .n-wrapper{
-    height: 10vh;
+    height: 6vh;
     display: flex;
     position: sticky;
+    background-color: rgba(255, 255, 255, 0.743);
     justify-content: space-between;
     padding: 0.7rem 2rem;
     overflow: hidden;
     z-index: 1;
-    width: 95vw; 
+    width: 90vw; 
     opacity: 0.9;
     position: fixed;
-    left: -1%;
+    left: 1%;
+    box-shadow:  0 01px gray,
+    01px 0 gray,
+    01px 02px gray,
+    02px 01px gray,
+    02px 03px gray,
+    03px 02px gray,
+    03px 04px gray,
+    04px 03px gray,
+    04px 05px gray,
+    05px 04px gray,
+    05px 06px gray,
+    06px 05px gray;
 }
 
 .n-left{
@@ -39,6 +52,7 @@
     display: flex;
     gap: 3rem;
     margin-right: 2rem;
+    
 }
 .n-list>ul > li:hover{
     cursor: pointer;

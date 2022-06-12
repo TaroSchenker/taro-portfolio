@@ -3,8 +3,7 @@ import './Intro.css'
 import Github from '../../img/github1.png'
 import Linkedin from '../../img/linkedin.png'
 import Modern from '../../img/modernabstract.png'
-import jsicon from '../../img/js.png'
-import cssicon from '../../img/css.png'
+
 
 
 
@@ -39,14 +38,19 @@ export default function Intro() {
           <img className="right-img" src={Modern} alt=''></img> 
 
         <div className="i-right-text">
-          <div>
-            
+          <span>From</span>
+          <div >
+              <span>Concert Tour Manager </span>
+               <span id="and">&</span>
           </div>
-        
-
+              
+                <span>Artist Manager</span>
+                <span>To </span>
+                <span>Developer </span>
         </div>
       </div>
 
     </div>
   )
 }
+
